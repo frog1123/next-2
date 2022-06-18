@@ -1,0 +1,14 @@
+{
+  "name": "next-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/frog1123/next-2.git",
+  "author": "frog1123 <93895449+frog1123@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "concurrently \"cd client && yarn dev\" \"cd server && yarn start:dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
